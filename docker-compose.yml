@@ -1,6 +1,6 @@
 version: "4"
 services:
-  talia:
+  gang:
     build: .
     environment:
       SESSION_NAME: $SESSION_NAME
