@@ -14,17 +14,22 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "👨🏻‍💻 Sahip", url=f"https://t.me/GangalarGrubuGank=true"
+                        "👩🏼‍💻 Sahip 1", url=f"https://t.me/Bendilemma=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/GangalarMultiBot?startgroup=true"
+                        "👩🏼‍💻 Sahip 2", url=f"https://t.me/Pembepokemon=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/GankAsistan"
+                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/Gangalarmultimbot?startgroup=true"
+                    )
+                ],
+                [
+                    InlineKeyboardButton(
+                        "🔊 Asistan", url="https://t.me/GangalarAsistan"
                     ),
                     InlineKeyboardButton(
                         "💬 Sohbet Grubumuz", url="https://t.me/GangalarApartmanSohbetGrubu"
@@ -122,17 +127,22 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "👨🏻‍💻 Sahip", url=f"https://t.me/GangalarGrubuGank=true"
+                        "👩🏼‍💻 Sahip 1", url=f"https://t.me/Bendilemma=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/GangalarMultiBot?startgroup=true"
+                        "👩🏼‍💻 Sahip 2", url=f"https://t.me/Pembepokemon=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/GankAsistan"
+                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/Gangalarmultimbot?startgroup=true"
+                    )
+                ],
+                [
+                    InlineKeyboardButton(
+                        "🔊 Asistan", url="https://t.me/GangalarAsistan"
                     ),
                     InlineKeyboardButton(
                         "💬 Sohbet Grubumuz", url="https://t.me/GangalarApartmanSohbetGrubu"
