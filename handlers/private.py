@@ -14,12 +14,12 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "👩🏼‍💻 Sahip 1", url=f"https://t.me/Bendilemma=true"
+                        "👩🏼‍💻 Sahip 1", url=f"https://t.me/Bendilemma"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "👩🏼‍💻 Sahip 2", url=f"https://t.me/Pembepokemon=true"
+                        "👩🏼‍💻 Sahip 2", url=f"https://t.me/Pembepokemon"
                     )
                 ],
                 [
