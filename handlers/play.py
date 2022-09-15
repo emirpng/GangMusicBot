@@ -21,6 +21,7 @@ from helpers.gets import get_url, get_file_name
 from pytgcalls import StreamType
 from pytgcalls.types.input_stream import InputAudioStream
 from pytgcalls.types.input_stream import InputStream
+from config import KARA_LISTE
 import aiofiles
 import ffmpeg
 from PIL import Image, ImageFont, ImageDraw
@@ -100,6 +101,8 @@ async def cls(_, query: CallbackQuery):
                    & ~filters.forwarded
                    & ~filters.via_bot)
 async def play(_, message: Message):
+
+ if message.from_user.id not in KARA_LISTE:
 
     lel = await message.reply("🔄 **ʟüᴛꜰᴇɴ ʙᴇᴋʟᴇʏiɴiᴢ...**")
     
@@ -198,8 +201,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🚀 Asistan", url=f"https://t.me/GankAsistan"),
-                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/GangalarApartmanSohbetGrubu"),
+                InlineKeyboardButton("🚀 İnfo", url=f"https://t.me/Roysmusicbott"),
+                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/sohbet0lsun"),
             ],[
                 InlineKeyboardButton("📲 Kapat", callback_data="cls"),
             ],
@@ -263,8 +266,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🚀 Asistan", url=f"https://t.me/GankAsistan"),
-                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/GangalarApartmanSohbetGrubu"),
+                InlineKeyboardButton("🚀 İnfo", url=f"https://t.me/Roysmusicbott"),
+                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/sohbet0lsun"),
             ],[
                 InlineKeyboardButton("📲 Kapat", callback_data="cls"),
             ],
@@ -311,3 +314,5 @@ async def play(_, message: Message):
         ), )
         os.remove("final.png")
         return await lel.delete()
+ else:
+    return await message.reply("Hey ahbap! Seni sevmedim bu yüzden karalisteye alındın. 🚨")
