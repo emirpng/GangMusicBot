@@ -201,8 +201,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🚀 İnfo", url=f"https://t.me/Roysmusicbott"),
-                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/sohbet0lsun"),
+                InlineKeyboardButton("🔊 Asistan", url=f"https://t.me/GankAsistan"),
+                InlineKeyboardButton("💬 Grubumuz", url=f"https://t.me/GangalarApartmanSohbetGrubu"),
             ],[
                 InlineKeyboardButton("📲 Kapat", callback_data="cls"),
             ],
@@ -266,8 +266,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🚀 İnfo", url=f"https://t.me/Roysmusicbott"),
-                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/sohbet0lsun"),
+                InlineKeyboardButton("🔊 Asistan", url=f"https://t.me/GankAsistan"),
+                InlineKeyboardButton("💬 Grubumuz", url=f"https://t.me/GangalarApartmanSohbetGrubu"),
             ],[
                 InlineKeyboardButton("📲 Kapat", callback_data="cls"),
             ],
